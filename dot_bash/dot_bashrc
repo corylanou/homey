@@ -71,11 +71,4 @@ function prompt_func() {
     PS1="${prompt}${LIGHT_RED} \n\$${COLOR_NONE} "
   fi
 }
-export ANDROID_SDK_ROOT=/usr/local/Cellar/android-sdk/r20.0.1
-export ANDROID_HOME=/usr/local/Cellar/android-sdk/r20.0.1
 
-PATH=$PATH:$HOME/.rvm/bin # Add RVM to PATH for scripting
-PATH=$PATH:$ANDROID_SDK_ROOT/platform-tools
-
-export GOROOT=/usr/local/go
-PATH=$PATH:$GOROOT

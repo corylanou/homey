@@ -16,6 +16,7 @@ set shiftwidth=2 " Number of spaces to use for each step of (auto)indent.
 set tabstop=2    " Number of spaces that a <Tab> in the file counts for.
 set autoread     " automatically read files changed outside of vim
 set number       " automaticlly turns on line numbering
+set highlight
 
 set virtualedit=block
 
@@ -102,4 +103,3 @@ au BufReadPost *
 set rtp+=$GOROOT/misc/vim
   filetype plugin indent on
   syntax on
-
